@@ -1,4 +1,4 @@
-"""create todo table
+"""create
 
 Revision ID: 24cc9e8b4d8c
 Revises: 
