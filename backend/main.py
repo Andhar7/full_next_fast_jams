@@ -7,7 +7,7 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 # routers: comment out next line till create them
-# from routers import todos
+from routers import todos
 
 from config import get_settings  # Update this import to be explicit
 import config
@@ -15,7 +15,7 @@ import config
 app = FastAPI()
 
 # router: comment out next line till create it
-# app.include_router(todos.router)
+app.include_router(todos.router)
 
 
 #origins = [
